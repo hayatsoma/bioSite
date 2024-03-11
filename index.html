@@ -1,38 +1,121 @@
+<!-- Title: index.html
+  Author: Hayat Soma
+  Date: 03/10/24
+  Description: Global HTML  -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Hayat's BioSite</h1>
-       <nav>
-        <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="hobby.html">Hobby</a></li>
-        </ul>
-       </nav>
-    </header>   
-    <main>
-    <img class="hero-image" src="images/OficeImage.png" alt="Hero hero-image">
-      <div class="summary">
-            <p>
-                 Embarking on the journey of becoming a software engineer, my passion for technology and 
-                 innovation has been the driving force behind my pursuit of knowledge as a web developer 
-                 student. From the inception of my academic endeavors, I have immersed myself in the intricate 
-                 world of web development, acquiring a comprehensive skill set that spans front-end and back-
-                 end technologies. The dynamic nature of this field has fueled my enthusiasm to explore and 
-                 master an array of programming languages, frameworks, and tools.
-                </p>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <nav>
+          <div class="logo">
+            <a href="/">
+              <h1>
+                <strong><span>H</span><i>Soma</i> </strong>
+              </h1>
+            </a>
+          </div>
+          <ul>
+            <li>
+              <a href="index.html"><strong>Home</strong></a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <main>
+        <div class="hero-section">
+          <div class="hero-txt-cont">
+            <h3 class="hero-txt-pub">PUBLISHER</h3>
+            <h1 class="hero-txt-name">Hayat Soma</h1>
+            <p class="hero-txt-desc">
+              Hey there! Dreaming big as a software whiz. With a heart full of
+              passion and a hunger for coding adventures, I'm on a mission to
+              weave digital wonders. Let's turn dreams into code!
+            </p>
+
+            <div class="hero-list2">
+              <p>
+                Ready to embark on this thrilling journey with me? Hi, I'm
+                Hayat, your next coding superhero!
+              </p>
+            </div>
+            <div class="form-cont">
+              <form action="">
+                <input
+                  type="email"
+                  name="email"
+                  id="form03-email"
+                  placeholder="E-mail"
+                  maxlength="128"
+                  required=""
+                />
+
+                <button type="submit">
+                  <span class="label"> Contact </span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="hero-img-cont">
+            <div class="frame">
+              <img
+                class="hero-image"
+                src="images/hayat.png"
+                alt="Hero hero-image"
+              />
+            </div>
+          </div>
         </div>
-    </main>
-    <footer>
+
+        <br /><br />
+
+        <br /><br />
+        <div class="hero-cards">
+          <ul>
+            <li class="card">
+              <img
+                src="https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400"
+                alt=""
+              />
+              <h3><a href="">Drinking Coffee In the morining</a></h3>
+              <p>
+                Enjoy coffee first thing in the morning before I've eaten. It
+                improves my mood
+              </p>
+            </li>
+
+            <li class="card">
+              <img
+                src="https://seekersguidance.org/wp-content/uploads/2022/02/Muslim-Family-Play-Shutterstock-e1644744284352-1000x423.jpg"
+                alt=""
+              />
+              <h3><a href=""> Daily prayer</a></h3>
+              <p>
+                It can also invite more peace into my life, helps me to learn
+                more about God's plan for me, and more.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer>
         <p>&copy; 2024 Hayat's BioSite</p>
-    </footer>
-    
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
